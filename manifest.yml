@@ -1,0 +1,6 @@
+applications:
+  - name: spring-boot-demo
+    memory: 1GB
+    path: target/spring-boot-demo-1.0.4-SNAPSHOT.jar
+    buildpack: dicf_java_buildpack_4172
+    stack: cflinuxfs3
